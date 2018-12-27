@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: your-username/your-repo-name
+  repo: MaltheBlichfeldt/okokboys
 
 media_folder: static/assets
 public_folder: assets
