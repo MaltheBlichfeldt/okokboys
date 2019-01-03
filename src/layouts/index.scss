@@ -12,10 +12,10 @@ position: relative;
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 600px;
-    height: 600px;
-    margin-top: -300px;
-    margin-left: -300px;
+    width: 90%;
+    height: 100%;
+    margin-top: -200px;
+    margin-left: -45%;
     transform: scale(0.7);
     opacity: 1;
     animation: 1s ease-in-out 0s 1 logosvg;
@@ -25,10 +25,10 @@ position: relative;
     0% {
         transform: scale(0.9);
         opacity: 0;
-        width: 600px;
-        height: 600px;
-        margin-top: -90px;
-        margin-left: -300px;
+        width: 90%;
+        height: 100%;
+        margin-top: 0px;
+        margin-left: -45%;
     }
 
     40% {
@@ -40,15 +40,15 @@ position: relative;
     80% {
         transform: scale(1);
         opacity: 1;
-        margin-top: -90px;
-        margin-left: -300px;
+        margin-top: 0px;
+        margin-left: -45%;
     }
 
     100% {
         transform: scale(0.7);
         opacity: 1;  
-        margin-top: -300px;
-        margin-left: -300px;      
+        margin-top: -200px;
+        margin-left: -45%;    
     }
 }
 
