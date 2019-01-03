@@ -1,14 +1,7 @@
-import React from "react"
-import Link from "gatsby-link"
-import Podcast from "../components/podcast" 
-import '../layouts/index.scss'
-
-
-export default () => (
-
-    <div>
-        <div className="logo">
-            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="logosvg"
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="2048.000000pt" height="1357.000000pt" viewBox="0 0 2048.000000 1357.000000"
  preserveAspectRatio="xMidYMid meet">
 <metadata>
@@ -176,21 +169,3 @@ l-19 24 -89 -42 c-189 -89 -341 -126 -518 -126 -251 1 -438 86 -630 286 -141
 112 -6 162 -30z"/>
 </g>
 </svg>
-        </div>
-        
-        <Link to="/about">about page</Link> 
-
-    {/* <Podcast className="podcast">
-        <h1>About CSS Modules</h1>
-        <p>CSS Modules are cool</p>
-        <p>CSS Modules are cool</p>
-    </Podcast>
-    
-    <Podcast>
-        <h1>About CSS Modules</h1>
-        <p>CSS Modules are cool</p>
-    </Podcast> */}
-
-        
-    </div>
-)
