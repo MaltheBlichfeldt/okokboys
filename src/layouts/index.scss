@@ -54,41 +54,95 @@ position: relative;
     }
 }
 
+
+// ------ logo on mobile ----- //
+
 @media screen and (max-width: 480px) {
 
     .logosvg {
         margin-top: -27vh;
     }
 
-@keyframes logosvg {
-    0% {
-        transform: scale(0.9);
-        opacity: 0;
-        width: 90%;
-        height: 100%;
-        margin-top: 1vh;
-        margin-left: -45%;
-    }
+    @keyframes logosvg {
+        0% {
+            transform: scale(0.9);
+            opacity: 0;
+            width: 90%;
+            height: 100%;
+            margin-top: 1vh;
+            margin-left: -45%;
+        }
 
-    40% {
-        transform: scale(1);
-        opacity: 1;
-    }
-    
+        40% {
+            transform: scale(1);
+            opacity: 1;
+        }
+        
 
-    80% {
-        transform: scale(1);
-        opacity: 1;
-        margin-top: 1vh;
-        margin-left: -45%;
-    }
+        80% {
+            transform: scale(1);
+            opacity: 1;
+            margin-top: 1vh;
+            margin-left: -45%;
+        }
 
-    100% {
-        transform: scale(0.7);
-        opacity: 1;  
-        margin-top: -27vh;
-        margin-left: -45%;
+        100% {
+            transform: scale(0.7);
+            opacity: 1;  
+            margin-top: -27vh;
+            margin-left: -45%;
+        }
     }
 }
+
+// ------ logo style ----- //
+#logo {
+    
+    .cls-1 {
+      fill: #be1e1e;
+    }
+
+    .cls-1, .cls-9 {
+      stroke: #425894;
+      stroke-width: 4.4px;
+    }
+
+    .cls-1, .cls-3, .cls-4, .cls-8, .cls-9 {
+      stroke-miterlimit: 10;
+    }
+
+    .cls-2 {
+      fill: #405897;
+    }
+
+    .cls-3, .cls-4, .cls-9 {
+      fill: none;
+    }
+
+    .cls-3 {
+      stroke: #222220;
+      stroke-width: 7.2px;
+    }
+
+    .cls-4 {
+      stroke: #000206;
+      stroke-width: 2.27px;
+    }
+
+    .cls-5, .cls-8 {
+      fill: #fff;
+    }
+
+    .cls-6 {
+      fill: #222220;
+    }
+
+    .cls-7 {
+      fill: #000206;
+    }
+
+    .cls-8 {
+      stroke: #fff;
+    }
 
 }
