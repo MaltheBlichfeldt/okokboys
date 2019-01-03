@@ -4,12 +4,6 @@ body {
     margin: 0;
 }
 
-
-.logo {
-height: 400px;
-position: relative;
-}
-
 .logosvg {
     position: absolute;
     top: 50%;
@@ -144,5 +138,108 @@ position: relative;
     .cls-8 {
       stroke: #fff;
     }
+}
+
+// ------ logo stanimation  ----- //
+
+// ------ HAND3 ----- //
+
+.hand3 {
+    animation: 0.8s ease-in-out 0s 1 hand3;
+    transform: rotate(0deg);
+    transform-origin: 10% 80%;
+}
+
+@keyframes hand3 {
+    0% {
+        transform: rotate(180deg);
+    }
+
+    80% {
+        transform: rotate(-1deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+// ------ HAND2  ----- //
+
+.hand2 {
+    animation: 0.9s ease-in-out 0s 1 hand2;
+    transform: rotate(0deg);
+    transform-origin: 10% 80%;
 
 }
+
+@keyframes hand2 {
+    0% {
+        transform: rotate(180deg);
+    }
+    
+    80% {
+        transform: rotate(-1deg);   
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+// ------ HAND1  ----- //
+
+.hand1 {
+    animation: 1s ease-in-out 0s  1 hand1;
+    transform: rotate(0deg);
+    transform-origin: 10% 80%;
+}
+
+@keyframes hand1 {
+    0% {
+        transform: rotate(180deg);
+    }
+
+    80% {
+        transform: rotate(-1deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+// ------ LOGO ----- //
+
+.logo-wrapper {
+    width: 60vw;
+    height: 60vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    animation: 0.3s ease-in-out 0s 1 polygon;
+    display: block;
+    margin: auto;
+}
+
+@keyframes polygon {
+    0% {
+        opacity: 0.5;
+        transform: scale(.06);
+    }
+
+    80% {
+        opacity: 0.9;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
