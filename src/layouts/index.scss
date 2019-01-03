@@ -2,6 +2,7 @@ $mobile: 480px;
 
 body {
     margin: 0;
+    background-color: #C2D8D8;
 }
 
 .logosvg {
@@ -90,7 +91,7 @@ body {
 }
 
 // ------ logo style  ----- //
-#logo {
+.logo {
     
     .cls-1 {
       fill: #be1e1e;
@@ -123,7 +124,7 @@ body {
       stroke-width: 2.27px;
     }
 
-    .cls-5, .cls-8 {
+    .cls-5,{
       fill: #fff;
     }
 
@@ -137,6 +138,11 @@ body {
 
     .cls-8 {
       stroke: #fff;
+    }
+
+    .cls-8 {
+        fill: #C2D8D8;
+        stroke: #C2D8D8;
     }
 }
 
@@ -192,7 +198,7 @@ body {
 .hand1 {
     animation: 1s ease-in-out 0s  1 hand1;
     transform: rotate(0deg);
-    transform-origin: 10% 80%;
+    transform-origin: 20% 80%;
 }
 
 @keyframes hand1 {
@@ -213,17 +219,18 @@ body {
 // ------ LOGO ----- //
 
 .logo-wrapper {
-    width: 60vw;
-    height: 60vw;
-    justify-content: center;
-    align-items: center;
-
+    width: 100%;
 }
 
 .logo {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 90%;
+    height: 50vw;
+    margin-top: -20vh;
+    margin-left: -45%;
     animation: 0.3s ease-in-out 0s 1 polygon;
-    display: block;
-    margin: auto;
 }
 
 @keyframes polygon {
@@ -242,4 +249,28 @@ body {
         transform: scale(1);
     }
 }
+
+.text {
+    animation: 0.5s ease-in-out 0s 1 text;
+    transform-origin: center;
+}
+
+@keyframes text {
+    0% {
+        
+        transform: scale(.06);
+    }
+
+    80% {
+        
+        transform: scale(0.9);
+    }
+
+    100% {
+       
+        transform: scale(1);
+    }
+}
+
+
 
