@@ -1,53 +1,5 @@
 <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 603.01 542.14">
   <defs>
-    <style>
-      .cls-1 {
-        fill: #be1e1e;
-      }
-
-      .cls-1, .cls-9 {
-        stroke: #425894;
-        stroke-width: 4.4px;
-      }
-
-      .cls-1, .cls-3, .cls-4, .cls-8, .cls-9 {
-        stroke-miterlimit: 10;
-      }
-
-      .cls-2 {
-        fill: #405897;
-      }
-
-      .cls-3, .cls-4, .cls-9 {
-        fill: none;
-      }
-
-      .cls-3 {
-        stroke: #222220;
-        stroke-width: 7.2px;
-      }
-
-      .cls-4 {
-        stroke: #000206;
-        stroke-width: 2.27px;
-      }
-
-      .cls-5, .cls-8 {
-        fill: #fff;
-      }
-
-      .cls-6 {
-        fill: #222220;
-      }
-
-      .cls-7 {
-        fill: #000206;
-      }
-
-      .cls-8 {
-        stroke: #be1e1e;
-      }
-    </style>
   </defs>
   <title>okokboys_logo</title>
   <polygon id="red" class="cls-1" points="428.29 369.21 20.68 369.21 176.38 38.38 583.99 38.38 428.29 369.21"/>

@@ -1,93 +1,26 @@
 $mobile: 480px;
 
-body {
-    margin: 0;
-    background-color: #be1e1e;
-}
-
-.logosvg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 90%;
-    height: 100%;
-    margin-top: -20vh;
-    margin-left: -45%;
-    transform: scale(0.7);
-    opacity: 1;
-    animation: 1s ease-in-out 0s 1 logosvg;
-}
-
-@keyframes logosvg {
-    0% {
-        transform: scale(0.9);
-        opacity: 0;
-        width: 90%;
-        height: 100%;
-        margin-top: 1vh;
-        margin-left: -45%;
-    }
-
-    40% {
-        transform: scale(1);
-        opacity: 1;
-    }
+h1, h2, h3 {
+    font-family: "superclarendon", serif;
+    font-weight: 600;
+    color: #405897;
     
-
-    80% {
-        transform: scale(1);
-        opacity: 1;
-        margin-top: 1vh;
-        margin-left: -45%;
-    }
-
-    100% {
-        transform: scale(0.7);
-        opacity: 1;  
-        margin-top: -20vh;
-        margin-left: -45%;
-    }
 }
 
+p {
+    font-family: "superclarendon", serif;
+    font-weight: 300;
+    color: #222220;
+}
 
-// ------ logo on mobile ----- //
+a {
+    font-family: "superclarendon", serif;
+    font-weight: 300;
+}
 
-@media screen and (max-width: 480px) {
-
-    .logosvg {
-        margin-top: -27vh;
-    }
-
-    @keyframes logosvg {
-        0% {
-            transform: scale(0.9);
-            opacity: 0;
-            width: 90%;
-            height: 100%;
-            margin-top: 1vh;
-            margin-left: -45%;
-        }
-
-        40% {
-            transform: scale(1);
-            opacity: 1;
-        }
-        
-
-        80% {
-            transform: scale(1);
-            opacity: 1;
-            margin-top: 1vh;
-            margin-left: -45%;
-        }
-
-        100% {
-            transform: scale(0.7);
-            opacity: 1;  
-            margin-top: -27vh;
-            margin-left: -45%;
-        }
-    }
+body {
+    margin: 0px;
+    background-color:  whitesmoke;;
 }
 
 // ------ logo style  ----- //
@@ -141,8 +74,8 @@ body {
     }
 
     .cls-8 {
-        fill: #be1e1e;
-        stroke: #be1e1e;
+        fill: whitesmoke;
+        stroke: whitesmoke;
     }
 }
 
@@ -219,17 +152,13 @@ body {
 // ------ LOGO ----- //
 
 .logo-wrapper {
-    width: 100%;
+    margin-top: 10%;
+    margin-left: 9%;
 }
 
 .logo {
-    position: absolute;
-    top: 45%;
-    left: 50%;
     width: 90%;
     height: 50vw;
-    margin-top: -20vh;
-    margin-left: -45%;
     animation: 0.3s ease-in-out 0s 1 polygon;
 }
 
@@ -270,6 +199,10 @@ body {
        
         transform: scale(1);
     }
+}
+
+.menu {
+    background-color: red;
 }
 
 

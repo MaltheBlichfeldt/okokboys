@@ -1,12 +1,15 @@
 import React from "react"
-import Link from "gatsby-link"
 import Podcast from "../components/podcast" 
 import '../layouts/index.scss'
+import Menu from "../components/menu/menu"
 
 
 export default () => (
 
-    <div>
+  <div className="body">
+    <div className="row">
+
+      <div className="col-xs-6">
         <div className="logo-wrapper">
             <svg className="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 603.01 542.14">
             <g id="text" className="text">
@@ -20,7 +23,7 @@ export default () => (
     <path class="cls-2" d="M580.48,30.3l-5,.4a6.86,6.86,0,0,0-1.15-2.86A6.11,6.11,0,0,0,572.28,26a9.44,9.44,0,0,0-2.9-1,18.85,18.85,0,0,0-3.53-.31,16.08,16.08,0,0,0-1.9.11,5.52,5.52,0,0,0-1.53.4,2.55,2.55,0,0,0-1.06.81,2.15,2.15,0,0,0-.39,1.32,2,2,0,0,0,1.36,1.87,16.1,16.1,0,0,0,3.47,1.07c1.41.3,3,.59,4.68.88a31.74,31.74,0,0,1,5,1.28A10.61,10.61,0,0,1,580.72,36a10.16,10.16,0,0,1,1.79,6.3,10.68,10.68,0,0,1-1,4.6,9.67,9.67,0,0,1-2.62,3.38A11.43,11.43,0,0,1,575,52.39a15.77,15.77,0,0,1-4.9.73,23.59,23.59,0,0,1-4.44-.35,20.07,20.07,0,0,1-2.92-.77c-.78-.29-1.43-.55-2-.78a3.76,3.76,0,0,0-1.49-.34,1.74,1.74,0,0,0-1.08.34,2.78,2.78,0,0,0-.82,1.19h-5V41.2l5-.26a5.69,5.69,0,0,0,3.08,4.92,15.81,15.81,0,0,0,7.43,1.5,10.54,10.54,0,0,0,4.2-.7,2.7,2.7,0,0,0,1.56-2.73,2,2,0,0,0-1.17-1.87,11.2,11.2,0,0,0-3-1c-1.23-.26-2.61-.51-4.13-.73a37.57,37.57,0,0,1-4.53-.94,16.65,16.65,0,0,1-4.08-1.69,8.9,8.9,0,0,1-2.6-2.31,8.18,8.18,0,0,1-1.36-3,17,17,0,0,1-.4-3.81,10.29,10.29,0,0,1,.66-3.67,8.32,8.32,0,0,1,2-3,9.84,9.84,0,0,1,3.43-2,14.48,14.48,0,0,1,4.93-.75,22.71,22.71,0,0,1,4.24.33,18,18,0,0,1,2.81.75c.75.28,1.37.52,1.85.74a3.25,3.25,0,0,0,1.34.33,2.47,2.47,0,0,0,1.38-.33,3.81,3.81,0,0,0,1-1.12h4.39Z" transform="translate(0.5 -19.05)"/>
   </g>
   <polygon id="red" class="cls-1 polygon" points="428.29 369.21 20.68 369.21 176.38 38.38 583.99 38.38 428.29 369.21"/>
-  
+
   <g id="haender">
     <g id="hand3" class="hand3">
       <path class="cls-3" d="M116.76,390.6" transform="translate(0.5 -19.05)"/>
@@ -357,22 +360,20 @@ export default () => (
     <rect class="cls-8" x="0.5" y="371.55" width="602.01" height="170.09"/>
     <polygon class="cls-9" points="313.94 369.27 20.68 369.27 132.7 369.27 425.96 369.27 313.94 369.27"/>
   </g>
-</svg>
+  </svg>
         </div>
-       
-        <Link to="/about">about page</Link> 
+      </div>
 
-        {/* <Podcast className="podcast">
-            <h1>About CSS Modules</h1>
-            <p>CSS Modules are cool</p>
-            <p>CSS Modules are cool</p>
-        </Podcast>
-        
-        <Podcast>
-            <h1>About CSS Modules</h1>
-            <p>CSS Modules are cool</p>
-        </Podcast> */}
+      <div className="col-xs-6">
+        <h1>Overskrift</h1>
+        <p>OK OK Boys er en ny podcast om musik.
+        I hvert udsendelse vil et kyndigt panel 
+        anmelde nye albums fra ind- og udland. 
+        Du kan høre første afsnit nu!</p>
+      </div>
 
-        
     </div>
+    <Menu/>
+  </div>
+
 )
