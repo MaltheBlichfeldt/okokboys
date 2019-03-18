@@ -1,4 +1,18 @@
-$mobile: 480px;
+$flexboxgrid-grid-columns: 12;
+$flexboxgrid-gutter-width: 20rem;
+$flexboxgrid-outer-margin: 1rem;
+
+$flexboxgrid-breakpoints:
+  sm 48rem,
+  md 64rem,
+  lg 80rem,
+  xlg 90rem;
+
+
+@import 'flexboxgrid-sass';
+
+
+
 
 h1, h2, h3 {
     font-family: "superclarendon", serif;
@@ -15,12 +29,15 @@ p {
 
 a {
     font-family: "superclarendon", serif;
-    font-weight: 300;
+    font-weight: 600;
+    color: #405897;
+    text-decoration: none;
 }
 
 body {
     margin: 0px;
-    background-color:  whitesmoke;;
+    background-color:  whitesmoke;
+
 }
 
 // ------ logo style  ----- //
@@ -92,14 +109,22 @@ body {
 @keyframes hand3 {
     0% {
         transform: rotate(180deg);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
     }
 
     80% {
         transform: rotate(-1deg);
+        
     }
 
     100% {
         transform: rotate(0deg);
+        opacity: 1;
+        
     }
 }
 
@@ -117,6 +142,10 @@ body {
         transform: rotate(180deg);
     }
     
+    40% {
+        opacity: 0;
+    }
+
     80% {
         transform: rotate(-1deg);   
     }
@@ -139,6 +168,10 @@ body {
         transform: rotate(180deg);
     }
 
+    40% {
+        opacity: 0;
+    }
+
     80% {
         transform: rotate(-1deg);
     }
@@ -151,9 +184,15 @@ body {
 
 // ------ LOGO ----- //
 
+.logo-section {
+    background-image: url(../assets/images/baggrundsplader.gif);
+    background-size: cover;
+}
+
 .logo-wrapper {
-    margin-top: 10%;
+    padding-top: 10%;
     margin-left: 9%;
+ 
 }
 
 .logo {
@@ -201,9 +240,6 @@ body {
     }
 }
 
-.menu {
-    background-color: red;
-}
 
 
 
