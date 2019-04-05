@@ -3,12 +3,7 @@ import Link from "gatsby-link"
 
 const Menu = () => (
     <div className="MenuWrapper">
-        <div className="menu" style = {{
-            padding: "2rem",
-            display: "flex",
-            justifyContent: "space-evenly",
-         
-        }}>
+        <div className="menu">
             <Link to="/about" className="menuItem">about page</Link> 
             <Link to="/about" className="menuItem">about page</Link> 
             <Link to="/about" className="menuItem">about page</Link> 

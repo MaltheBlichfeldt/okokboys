@@ -1,12 +1,10 @@
 import React from "react"
-import Podcast from "../components/podcast" 
 import '../layouts/index.scss'
 import Menu from "../components/menu/menu"
+import Text from "../components/text-section/text-section"
 
 export default () => (
-
   <div>
-
     <section className="logo-section">
       <div className="logo-wrapper">
         <svg className="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 603.01 542.14">
@@ -361,23 +359,12 @@ export default () => (
   </svg>
       </div>
     </section>
-
-    <Menu/>
-
-<a href="https://open.spotify.com/track/6CnkGSMarTBjIKWuuGXBNl?si=ecMRoa36RnWte3RR7PdJhw">Spotify link</a>
-   
-{/* 
-    <div className="row">
-      <div className="col-sm-8 col-offset-sm-2">
-        <h1>Overskrift</h1>
-        <p>OK OK Boys er en ny podcast om musik.
-        I hvert udsendelse vil et kyndigt panel 
-        anmelde nye albums fra ind- og udland. 
-        Du kan høre første afsnit nu!</p>
-      </div>
-    </div> */}
-
-
-  </div>
+    {/* <Menu/> */}
+    {/* <Text/> */}
+  </div> 
 
 )
+
+
+{/* <iframe src="https://www.podbean.com/media/player/azafc-a22065?from=yiiadmin&download=1&version=1&vjs=1&skin=9&auto=0&share=1&fonts=Helvetica&download=1&rtl=0&pbad=1" height="400" width="400" frameborder="0" scrolling="no" data-name="pb-iframe-player"></iframe><div className="col-sm-12 col-md-8 col-offset-md-2">
+<iframe src="https://open.spotify.com/embed/user/113182542/playlist/36mMc3FlApVpttVwZnDy64" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> */}

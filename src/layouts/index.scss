@@ -8,11 +8,7 @@ $flexboxgrid-breakpoints:
   lg 80rem,
   xlg 90rem;
 
-
 @import 'flexboxgrid-sass';
-
-
-
 
 h1, h2, h3 {
     font-family: "superclarendon", serif;
@@ -35,8 +31,8 @@ a {
 }
 
 body {
-    margin: 0px;
-    background-color:  whitesmoke;
+    margin-top: 0px;
+    background-color: #F7FFF4;
 
 }
 
@@ -74,7 +70,7 @@ body {
       stroke-width: 2.27px;
     }
 
-    .cls-5,{
+    .cls-5 {
       fill: #fff;
     }
 
@@ -184,10 +180,10 @@ body {
 
 // ------ LOGO ----- //
 
-.logo-section {
-    background-image: url(../assets/images/baggrundsplader.gif);
-    background-size: cover;
-}
+// .logo-section {
+//     background-image: url(../assets/images/baggrundsplader.gif);
+//     background-size: cover;
+// }
 
 .logo-wrapper {
     padding-top: 10%;
@@ -239,6 +235,7 @@ body {
         transform: scale(1);
     }
 }
+
 
 
 
