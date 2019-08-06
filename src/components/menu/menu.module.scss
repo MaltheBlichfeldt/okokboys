@@ -1,9 +1,13 @@
-.menuItem {
-    margin: 2rem;
+.menu {
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
-.menu {
-    padding: 2rem;
-    display: flex;
-    justify-content: space-evenly;
+.menuItem {
+    margin-right: 2rem;
+    color: rgb(40, 40, 40);
 }
+
+
+
