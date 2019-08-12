@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap');
+@import 'flexboxgrid-sass';
+@import '../components/logo/logo.module.scss';
+@import '../components/menu/menu.module.scss';
+
+h1, h2, h3 {
+    // font-family: "superclarendon", serif;
+    // font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    // color: #405897;
+    color: #442c00;
+    margin-bottom: 0px;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2.5em;
+    padding-bottom: 1em;
+}
+
+p {
+    // font-family: "superclarendon", serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    color: #222220;
+    word-break: normal;
+
+}
+
+a {
+    font-family: "superclarendon", serif;
+    font-weight: 600;
+    color: #405897;
+    text-decoration: none;
+}
+
+body {
+    margin: auto;
+    margin-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #f7fff4;
+    max-width: 1080px;
+
+    @media screen and (max-width: 767px) {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+
+      @media screen and (max-width: 767px) {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+}
+
+.logo-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.noborder {
+    border: none;
+}
+
+  .sectionpadding {
+      margin-top: 0px;
+      margin-bottom: 80px;
+  }
+
+  .paddingbottom {
+      margin-bottom: 40px;
+  }
+
+  .nomargintop {
+    margin-top: 0;
+  }
+
+  .paddingicon {
+      padding: 0.8em;
+  }
+
+  .footer {
+      margin: 5em;
+  }
+
+  .smalltext {
+        display: block;
+      text-align: center;
+      font-size: 0.8;
+      color: #442c00;
+  }
+
+  .episode {
+    background-color: white;
+    border: solid 1px #ebebeb;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 10px 10px 25px #8080804a;
+  }
+
+
+
+
+  .fadeInUp-40 {
+    animation: fadeInUp-40 1s;
+}
+
+  .fadeInUp-60 {
+    animation: fadeInUp-60 1s;
+}
+
+  @-webkit-keyframes fadeInUp-60 {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+
+    60% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+      }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+
+@-webkit-keyframes fadeInUp-40 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  40% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.episodetextpadding {
+  padding-left: 30px
+}
+
+

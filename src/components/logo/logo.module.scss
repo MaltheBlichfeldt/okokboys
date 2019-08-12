@@ -1,42 +1,18 @@
-$flexboxgrid-grid-columns: 12;
-$flexboxgrid-gutter-width: 20rem;
-$flexboxgrid-outer-margin: 1rem;
-
-$flexboxgrid-breakpoints:
-  sm 48rem,
-  md 64rem,
-  lg 80rem,
-  xlg 90rem;
-
-@import 'flexboxgrid-sass';
-
-h1, h2, h3 {
-    font-family: "superclarendon", serif;
-    font-weight: 600;
-    color: #405897;
-    
+.header-text {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
 }
 
-p {
-    font-family: "superclarendon", serif;
-    font-weight: 300;
-    color: #222220;
+@media screen and (max-width: 969px) {
+    .responsive-font {
+        font-size: 1.8em;
+    }
 }
 
-a {
-    font-family: "superclarendon", serif;
-    font-weight: 600;
-    color: #405897;
-    text-decoration: none;
-}
 
-body {
-    margin-top: 0px;
-    background-color: #F7FFF4;
-
-}
-
-// ------ logo style  ----- //
 .logo {
     
     .cls-1 {
@@ -177,23 +153,13 @@ body {
     }
 }
 
-
-// ------ LOGO ----- //
-
-// .logo-section {
-//     background-image: url(../assets/images/baggrundsplader.gif);
-//     background-size: cover;
-// }
-
 .logo-wrapper {
-    padding-top: 10%;
-    margin-left: 9%;
- 
+    margin-top: 7rem;
+    display: block;
+    margin: auto;
 }
 
 .logo {
-    width: 90%;
-    height: 50vw;
     animation: 0.3s ease-in-out 0s 1 polygon;
 }
 
@@ -214,10 +180,6 @@ body {
     }
 }
 
-.text {
-    animation: 0.5s ease-in-out 0s 1 text;
-    transform-origin: center;
-}
 
 @keyframes text {
     0% {
@@ -235,8 +197,3 @@ body {
         transform: scale(1);
     }
 }
-
-
-
-
-
