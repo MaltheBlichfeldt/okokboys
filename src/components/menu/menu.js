@@ -6,7 +6,7 @@ import '../menu/menu.module.scss'
 const Menu = () => (
     <div className="MenuWrapper">
         <div className="menu">
-        <a href="www.facebook.com/okokboyspodcast">
+        <a href="https://www.facebook.com/okokboyspodcast">
         <svg className="paddingicon" xmlns="http://www.w3.org/2000/svg" width="50" height="100.799" viewBox="0 0 100.799 100.799">
             <g id="_69407" data-name="69407" transform="translate(0 0)">
             <g id="Group_18" data-name="Group 18">
@@ -16,7 +16,7 @@ const Menu = () => (
         </svg>
         </a>
 
-        <a href="www.instagram.com/okokboyspodcast">
+        <a href="https://www.instagram.com/okokboyspodcast">
         <svg className="paddingicon" xmlns="http://www.w3.org/2000/svg" width="50" height="100.799" viewBox="0 0 100.799 100.799">
         <g id="_69366" data-name="69366" transform="translate(0 0)">
           <g id="Group_20" data-name="Group 20">
