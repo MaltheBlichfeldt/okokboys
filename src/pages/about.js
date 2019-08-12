@@ -8,7 +8,6 @@ export default () => (
         <Link to="/">forside</Link>
         <br />
         <br />
-        https://open.spotify.com/show/651spuGc5dPVhgKhBR4Gcl
 
         
     </div>
