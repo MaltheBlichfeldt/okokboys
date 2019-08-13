@@ -3,6 +3,8 @@ import Menu from "../components/menu/menu"
 import Layout from "../components/layout"
 import Logo from "../components/logo/logo"
 
+import redaktionen from '../assets/images/okokboysredaktion.jpg'
+
 const Main = () => (
   <div>
     <Layout>
@@ -77,6 +79,18 @@ const Main = () => (
           Jingle af Anders Belling.</i>
           </p>
        </div>
+      </div>
+    </section>
+
+    <section className="redaktionen">
+      <div className="row">
+        <div className="col-xs-12">
+          <h2 className="nopadding">Redaktionen</h2>
+          <p>
+            OK OK Boys-redaktionen består af Oliver Aabo, Lars Andersen og Magnus Krog.
+          </p>
+          <img className="redaktionenImg" src={redaktionen}></img>
+        </div>
       </div>
     </section>
 
