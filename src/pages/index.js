@@ -29,6 +29,24 @@ const Main = () => (
       {/* EPISODE feed */}
       <section>
         <div className="row episode sectionpadding">
+         <div className="col-xs-12 col-sm-4">
+         <iframe src="https://open.spotify.com/embed-podcast/episode/6kV0Tc63ARdtemzRSRkPwx" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div className="col-xs-12 col-sm-8 episodetextpadding">
+          <h3>Gilli og Thom Yorke</h3>
+
+          <p>Hvad var årets koncert på Roskilde Festival? Hvordan fungerer Gilli på et helt album? Lyder Thom Yorke som en drøm man glemmer? Og hvad er det perfekte soundtrack til grillfester og italiensk madlavning?
+          <br></br><br></br>
+          Alt dette, og meget mere i dette afsnit af OK OK Boys, hvor vi anmelder Gillis ‘Kiko’, Thom Yorkes ‘ANIMA’, kommer med en masse anbefalinger og introducerer et helt nyt koncept i programmet.
+          <br></br><br></br>
+          <i className="credits">I studiet er Magnus Krog, Lars Andersen og Oliver Aabo.
+          <br></br>
+          Jingle af Anders Belling.</i>
+          </p>
+        </div>
+      </div>
+
+        <div className="row episode sectionpadding">
           <div className="col-xs-12 col-sm-4">
              <iframe title="Roskilde Festival-special" src="https://open.spotify.com/embed-podcast/episode/6CqEXGHxS0UyoXNLGalFoj" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
@@ -43,9 +61,7 @@ const Main = () => (
             <br></br>
             Jingle af Anders Belling.</i>
             </p>
-            
          </div>
-
         </div>
 
         <div className="row sectionpadding episode">
@@ -63,23 +79,6 @@ const Main = () => (
             </p>
           </div>
         </div>
-
-      <div className="row sectionpadding episode">
-        <div className="col-xs-12 col-sm-4">
-          <iframe src="https://open.spotify.com/embed-podcast/episode/0daGBiKIe61NC3OysbCWHZ" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          </div>
-        <div className="col-xs-12 col-sm-8 episodetextpadding">
-        <h3>Hans Philip og Little Simz</h3>
-          <p>Hvad skal man se på Roskilde Festival 2019? Det fortæller panelet i denne specialudgave af OK OK Boys, der er dedikeret til årets festival.<br></br>
-
-          Vi har dykket ned i de 188 navne på plakaten, og fundet det bedste til jer. Der bliver anbefalet moshpit-venlig hip-hop, vild afro-jazz, god gedigen rock og alt muligt andet.
-          <br></br><br></br>
-          <i className="credits">I studiet er Magnus Krog, Lars Andersen og Oliver Aabo.
-          <br></br>
-          Jingle af Anders Belling.</i>
-          </p>
-       </div>
-      </div>
     </section>
 
     <section className="redaktionen">
