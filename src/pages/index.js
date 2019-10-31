@@ -2,27 +2,48 @@ import React from "react"
 import Menu from "../components/menu/menu"
 import Layout from "../components/layout"
 import Logo from "../components/logo/logo"
-
+import Header from "../components/Header/header"
+import { useStaticQuery, graphql } from "gatsby"
 import redaktionen from '../assets/images/okokboysredaktion.jpg'
 
-const Main = () => (
+const Main = () => {
+const data = useStaticQuery(graphql`
+query {
+
+  allMarkdownRemark {
+    edges {
+      node {
+        frontmatter {
+          title
+          date
+        }
+      }
+    }
+  }
+}
+`)
+
+console.log(data);
+const title = data.allMarkdownRemark.edges[0].node.frontmatter.title;
+
+return (
   <div>
     <Layout>
       <Menu></Menu>
-      
-
       {/* LOGO AND CAPTION */}
       <section className="logo-section">
         <div className="row reverse">
           <div className="col-xs-12 col-sm-7">
             <Logo />
-          </div>
+          </div> 
           <div className="col-xs-12 col-sm-5 header-text">
-            <h1 className="nomargintop responsive-font fadeInUp-40">OK OK Boys <br></br>- en musikpodcast</h1>
-            <p className="fadeInUp-60">Hør et panel af musiknørder anmelde ny musik fra både Danmark og udlandet. Vi holder os ikke til én genre, men snakker om alt i øst og vest. Lyt med der hvor du lytter til podcasts.</p>
+            <h1 className="nomargintop responsive-font fadeInUp-40">{title}<br></br>- en musikpodcast</h1>
+            <p className="fadeInUp-60"></p>
           </div>
         </div>
       </section>
+
+      <Header />
 
       <h2>Seneste afsnit</h2>
 
@@ -103,6 +124,7 @@ const Main = () => (
 
     </Layout>
   </div>
-)
+
+)}
 
 export default Main
