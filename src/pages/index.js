@@ -23,6 +23,8 @@ query {
 }
 `)
 
+
+
 console.log(data);
 const title = data.allMarkdownRemark.edges[0].node.frontmatter.title;
 
