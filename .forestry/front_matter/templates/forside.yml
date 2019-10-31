@@ -1,4 +1,20 @@
 ---
 label: Forside
 hide_body: true
-fields: []
+fields:
+- name: overskrift
+  type: text
+  config:
+    required: false
+  label: Overskrift
+  description: '"fx okokboys..."'
+- name: rubrik
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Rubrik
+  description: Beskrivelse under overskrift
