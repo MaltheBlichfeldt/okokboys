@@ -5,7 +5,7 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: document
-  path: ''
+  path: src/markdown
   label: Forside
 upload_dir: uploads
 public_path: "/uploads"
