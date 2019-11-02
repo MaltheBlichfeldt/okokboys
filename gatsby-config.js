@@ -1,8 +1,12 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Title from config',
+    description: 'description from config'
+  },
+
   plugins: [
-    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-sass`,
-    
+    'gatsby-transformer-remark',
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -15,8 +19,15 @@ module.exports = {
             }
           }
         ]
-      }
-    }  
-    
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`
+      },
+    }
   ]
+  
 }
