@@ -1,5 +1,5 @@
 ---
 overskrift: Overskrift fra FORESTRYYYY!!!!!! WUHU!
-rubrik: Rubrik fra FORESTRYY sdfsdfsdf
+rubrik: Rubrik fra FORESTRY
 
 ---
