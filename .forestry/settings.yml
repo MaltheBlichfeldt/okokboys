@@ -5,14 +5,7 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: heading
-  label: Sider
-- type: directory
-  path: src/markdown/pages_markdown
-  label: Sider
-  create: documents
-  match: "/"
-  templates:
-  - forside
+  label: Forside
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
