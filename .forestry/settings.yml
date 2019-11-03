@@ -8,12 +8,9 @@ sections:
   path: src/markdown/pages_markdown
   label: Sider
   create: documents
-  match: "*.md"
+  match: "/"
   templates:
   - forside
-- type: document
-  path: src/markdown
-  label: Forside
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
