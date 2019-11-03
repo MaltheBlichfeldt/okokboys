@@ -7,11 +7,21 @@ import { useStaticQuery, graphql } from "gatsby"
 import redaktionen from '../assets/images/okokboysredaktion.jpg'
 
 const Main = () => {
-// const data = useStaticQuery(graphql`
-//   query {
+const data = useStaticQuery(graphql`
+  {
+    allMarkdownRemark(
+      filter: {frontmatter: {content_type: {eq: "page"}}}, 
+      limit: 1000
+    ) {
+      edges {
+        node {
+          frontmatter
+        }
+      }
+    }
+  }
 
-//   }
-// `)
+`)
 
 return (
   <div>
