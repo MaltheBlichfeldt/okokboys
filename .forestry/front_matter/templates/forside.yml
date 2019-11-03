@@ -18,3 +18,5 @@ fields:
       format: markdown
   label: Rubrik
   description: Beskrivelse under overskrift
+pages:
+- src/markdown/pages_markdown/forside.md
