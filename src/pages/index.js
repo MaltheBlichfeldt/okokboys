@@ -7,19 +7,23 @@ import { useStaticQuery, graphql } from "gatsby"
 import redaktionen from '../assets/images/okokboysredaktion.jpg'
 
 const Main = () => {
-// const data = useStaticQuery(graphql`
-//   { 
-//     allFile {
-//       edges {
-//           node {
-//             frontmatter
-//           }
-//       }
-//     }
-//   }
-// `)
+const data = useStaticQuery(graphql`
+{
+  markdownRemark {
+    html
+    frontmatter {
+      overskrift
+      rubrik
+    }
+  }
+}
+`)
+
+const overskrift = data.markdownRemark.frontmatter.overskrift
 
 return (
+
+
   <div>
     <Layout>
       <Menu></Menu>
@@ -30,7 +34,7 @@ return (
             <Logo />
           </div> 
           <div className="col-xs-12 col-sm-5 header-text">
-            <h1 className="nomargintop responsive-font fadeInUp-40">title<br></br>- en musikpodcast</h1>
+            <h1 className="nomargintop responsive-font fadeInUp-40">{overskrift}<br></br>- en musikpodcast</h1>
             <p className="fadeInUp-60"></p>
           </div>
         </div>
