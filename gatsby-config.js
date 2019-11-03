@@ -7,27 +7,39 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     'gatsby-transformer-remark',
+
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: "gatsby-remark-embed-spotify",
       options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-embed-spotify",
-            options: {
-              width: 800, // default is "100%"
-              height: 600 // default is 400
-            }
-          }
-        ]
-      },
+        width: 800, // default is "100%"
+        height: 600 // default is 400
+      }
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
-        path: `${__dirname}/src/`
+        path: `${__dirname}/src/pages`,
+        name: 'pages',
       },
-    }
+    },
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data`,
+        name: 'data',
+      },
+    },
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/assets`,
+        name: 'assets',
+      }
+    },
   ]
   
 }
+
