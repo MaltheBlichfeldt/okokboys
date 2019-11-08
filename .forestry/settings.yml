@@ -4,13 +4,8 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: directory
-  path: src/markdown/pages_markdown
-  label: Sider
-  create: documents
-  match: "/"
-  templates:
-  - forside
+- type: heading
+  label: Content
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
