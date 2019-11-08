@@ -13,7 +13,6 @@ const data = useStaticQuery(graphql`
     html
     frontmatter {
       overskrift
-      rubrik
     }
   }
 }
@@ -34,7 +33,7 @@ return (
             <Logo />
           </div> 
           <div className="col-xs-12 col-sm-5 header-text">
-            <h1 className="nomargintop responsive-font fadeInUp-40">{overskrift}<br></br>- en musikpodcast</h1>
+            <h1 className="nomargintop responsive-font fadeInUp-40">OK OK Boys<br></br>- en musikpodcast</h1>
             <p className="fadeInUp-60"></p>
           </div>
         </div>
@@ -45,6 +44,25 @@ return (
       <h2>Seneste afsnit</h2>
 
       {/* EPISODE feed */}
+
+      <div className="row episode sectionpadding">
+       <div className="col-xs-12 col-sm-4">
+       <iframe src="https://open.spotify.com/embed-podcast/episode/0rjyDs22kVCJcPZOBDeYys" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      </div>
+      <div className="col-xs-12 col-sm-8 episodetextpadding">
+        <h3>Gilli og Thom Yorke</h3>
+
+        <p>Hvad var årets koncert på Roskilde Festival? Hvordan fungerer Gilli på et helt album? Lyder Thom Yorke som en drøm man glemmer? Og hvad er det perfekte soundtrack til grillfester og italiensk madlavning?
+        <br></br><br></br>
+        Alt dette, og meget mere i dette afsnit af OK OK Boys, hvor vi anmelder Gillis ‘Kiko’, Thom Yorkes ‘ANIMA’, kommer med en masse anbefalinger og introducerer et helt nyt koncept i programmet.
+        <br></br><br></br>
+        <i className="credits">I studiet er Magnus Krog, Lars Andersen og Oliver Aabo.
+        <br></br>
+        Jingle af Anders Belling.</i>
+        </p>
+      </div>
+    </div>
+
       <section>
         <div className="row episode sectionpadding">
          <div className="col-xs-12 col-sm-4">
@@ -63,10 +81,11 @@ return (
           </p>
         </div>
       </div>
-
+      
+{/*
         <div className="row episode sectionpadding">
           <div className="col-xs-12 col-sm-4">
-             <iframe title="Roskilde Festival-special" src="https://open.spotify.com/embed-podcast/episode/6CqEXGHxS0UyoXNLGalFoj" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe title="Roskilde Festival-special" src="https://open.spotify.com/embed-podcast/episode/6CqEXGHxS0UyoXNLGalFoj" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
           <div className="col-xs-12 col-sm-8 episodetextpadding">
           <h3>Roskilde Festival-special</h3>
@@ -79,7 +98,7 @@ return (
             <br></br>
             Jingle af Anders Belling.</i>
             </p>
-         </div>
+        </div>
         </div>
 
         <div className="row sectionpadding episode">
@@ -97,7 +116,9 @@ return (
             </p>
           </div>
         </div>
-    </section>
+*/}
+
+</section>
 
     <section className="redaktionen">
       <div className="row">
