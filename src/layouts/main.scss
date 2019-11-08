@@ -93,7 +93,8 @@ body {
   }
 
   .footer {
-      margin: 5em;
+      margin-top: 3em;
+      margin-bottom: 3rem;
   }
 
   .smalltext {
@@ -186,6 +187,13 @@ body {
 .logo-max-height {
   max-height: 450px; 
   overflow: hidden;
+
+}
+
+.header-text {
+  @media screen and (max-width: 600px) {
+    margin: 0rem;
+  }
 }
 
 

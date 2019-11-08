@@ -28,7 +28,7 @@ return (
       <Menu></Menu>
       {/* LOGO AND CAPTION */}
       <section className="logo-section">
-        <div className="row reverse logo-max-height">
+        <div className="row reverse">
           <div className="col-xs-12 col-sm-7">
             <Logo />
           </div> 
