@@ -18,7 +18,7 @@ const Header = () => {
 
       render={data => (
         <header>
-          <h1>{data.site.siteMetadata.title}</h1>
+         {/* <h1>{data.site.siteMetadata.title}</h1> */} 
         </header>
       )}
     />
