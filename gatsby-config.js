@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     'gatsby-transformer-remark',
+    'gatsby-plugin-netlify-cache',
 
     {
       resolve: "gatsby-remark-embed-spotify",
