@@ -176,10 +176,16 @@ body {
 
 .redaktionenImg {
   border-radius: 10px;
+  width: 100%;
 }
 
 .nopadding {
   padding: 0px;
+}
+
+.logo-max-height {
+  max-height: 450px; 
+  overflow: hidden;
 }
 
 

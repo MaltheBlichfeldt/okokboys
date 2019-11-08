@@ -28,13 +28,13 @@ return (
       <Menu></Menu>
       {/* LOGO AND CAPTION */}
       <section className="logo-section">
-        <div className="row reverse">
+        <div className="row reverse logo-max-height">
           <div className="col-xs-12 col-sm-7">
             <Logo />
           </div> 
           <div className="col-xs-12 col-sm-5 header-text">
             <h1 className="nomargintop responsive-font fadeInUp-40">OK OK Boys<br></br>- en musikpodcast</h1>
-            <p className="fadeInUp-60"></p>
+            <p className="fadeInUp-60">En podcast om musik, hvor et panel af musiknørder anmelder ny musik fra indland og udland.</p>
           </div>
         </div>
       </section>
