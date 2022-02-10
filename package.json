@@ -22,7 +22,7 @@
     "gatsby-source-filesystem": "^2.1.33",
     "gatsby-transformer-remark": "^2.6.30",
     "netlify-cms": "^2.3.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   },
